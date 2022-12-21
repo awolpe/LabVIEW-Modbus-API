@@ -50,6 +50,11 @@
 			<Item Name="Bytes to U16s.vi" Type="VI" URL="../Utility/Bytes to U16s.vi"/>
 			<Item Name="Generate UUID.vi" Type="VI" URL="../Utility/Generate UUID.vi"/>
 		</Item>
+		<Item Name="Network Interface" Type="Folder">
+			<Item Name="Network Interface.lvclass" Type="LVClass" URL="../Network Interface/Network Interface.lvclass"/>
+			<Item Name="TCP Interface.lvclass" Type="LVClass" URL="../Network Interface/TCP Interface/TCP Interface.lvclass"/>
+			<Item Name="Serial Interface.lvclass" Type="LVClass" URL="../Network Interface/Serial Interface/Serial Interface.lvclass"/>
+		</Item>
 		<Item Name="Transmission Data Unit (ADU)" Type="Folder">
 			<Item Name="Transmission Data Unit.lvclass" Type="LVClass" URL="../Transmission Data Unit/Transmission Data Unit.lvclass"/>
 			<Item Name="IP Data Unit.lvclass" Type="LVClass" URL="../Transmission Data Unit/IP/IP Data Unit.lvclass"/>

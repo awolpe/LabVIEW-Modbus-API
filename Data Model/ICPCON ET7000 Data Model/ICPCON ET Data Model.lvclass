@@ -162,7 +162,7 @@
 			<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
 			<Property Name="NI.ClassItem.State" Type="Int">8396816</Property>
 		</Item>
-		<Item Name="Write Multiple Holding Registers.vi" Type="VI" URL="../Access Functions/Write Multiple Holding Registers.vi">
+		<Item Name="Write Multiple Registers.vi" Type="VI" URL="../Access Functions/Write Multiple Registers.vi">
 			<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">)1#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!'$!!!!$!!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!71&amp;!!!Q!!!!%!!AFF=H*P=C"P&gt;81!"!!!!$Z!=!!?!!!?(%F$5%.04C"&amp;6#"%982B)%VP:'6M,GRW9WRB=X-!!"6E:8:J9W5A:'&amp;U93"N&lt;W2F&lt;#"P&gt;81!)%"1!!-!!!!"!!)4:8*S&lt;X)A;7YA+'ZP)'6S=G^S+1!81!9!%&amp;*F:WFT&gt;'6S)&amp;:B&lt;(6F)$)!!"R!1!!"`````Q!($X*F:WFT&gt;'6S)(:B&lt;(6F=Q!81!9!%(.U98*U;7ZH)'&amp;E:(*F=X-!!$Z!=!!?!!!?(%F$5%.04C"&amp;6#"%982B)%VP:'6M,GRW9WRB=X-!!"2E:8:J9W5A:'&amp;U93"N&lt;W2F&lt;#"J&lt;A!!6!$Q!!Q!!Q!%!!1!"1!%!!1!"!!%!!9!#!!*!!I$!!"Y!!!.#!!!!!!!!!!!!!#.#Q!!!!!!!!!!!!!!!!!!!!!!!!I!!!)1!!!!%!!!!*!!!!!!!1!,!!!!!!</Property>
 			<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
 			<Property Name="NI.ClassItem.Flags" Type="Int">0</Property>
@@ -189,7 +189,7 @@
 			<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
 			<Property Name="NI.ClassItem.State" Type="Int">8396816</Property>
 		</Item>
-		<Item Name="Write Single Holding Register.vi" Type="VI" URL="../Access Functions/Write Single Holding Register.vi">
+		<Item Name="Write Single Register.vi" Type="VI" URL="../Access Functions/Write Single Register.vi">
 			<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">)1#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!&amp;&lt;!!!!#Q!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!71&amp;!!!Q!!!!%!!AFF=H*P=C"P&gt;81!"!!!!$Z!=!!?!!!?(%F$5%.04C"&amp;6#"%982B)%VP:'6M,GRW9WRB=X-!!"6E:8:J9W5A:'&amp;U93"N&lt;W2F&lt;#"P&gt;81!)%"1!!-!!!!"!!)4:8*S&lt;X)A;7YA+'ZP)'6S=G^S+1!61!9!$H*F:WFT&gt;'6S)(:B&lt;(6F!!!.1!9!"W&amp;E:(*F=X-!0E"Q!"Y!!"Y=35.11U^/)%65)%2B&gt;'%A47^E:7QO&lt;(:D&lt;'&amp;T=Q!!&amp;'2F&gt;GFD:3"E982B)'VP:'6M)'FO!!"5!0!!$!!$!!1!"!!&amp;!!1!"!!%!!1!"A!(!!A!#1-!!(A!!!U)!!!!!!!!!!!!!)U,!!!!!!!!!!!!!!!!!!!!!!!!#A!!!"!!!!!1!!!!E!!!!!!"!!I!!!!!</Property>
 			<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
 			<Property Name="NI.ClassItem.Flags" Type="Int">0</Property>
