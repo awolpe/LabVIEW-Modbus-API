@@ -54,6 +54,12 @@
 			<Item Name="Network Interface.lvclass" Type="LVClass" URL="../Network Interface/Network Interface.lvclass"/>
 			<Item Name="TCP Interface.lvclass" Type="LVClass" URL="../Network Interface/TCP Interface/TCP Interface.lvclass"/>
 			<Item Name="Serial Interface.lvclass" Type="LVClass" URL="../Network Interface/Serial Interface/Serial Interface.lvclass"/>
+			<Item Name="Serial Shared Components.lvlib" Type="Library" URL="../Network Interface/Serial Interface/Serial Shared Components/Serial Shared Components.lvlib"/>
+			<Item Name="TCP Shared Components.lvlib" Type="Library" URL="../Network Interface/TCP Interface/TCP Shared Components/TCP Shared Components.lvlib"/>
+		</Item>
+		<Item Name="Modbus Data Unit (PDU)" Type="Folder">
+			<Property Name="NI.SortType" Type="Int">3</Property>
+			<Item Name="Modbus Data Unit.lvclass" Type="LVClass" URL="../Modbus Data Unit/Modbus Data Unit.lvclass"/>
 		</Item>
 		<Item Name="Transmission Data Unit (ADU)" Type="Folder">
 			<Item Name="Transmission Data Unit.lvclass" Type="LVClass" URL="../Transmission Data Unit/Transmission Data Unit.lvclass"/>
@@ -62,33 +68,47 @@
 			<Item Name="RTU Data Unit.lvclass" Type="LVClass" URL="../Transmission Data Unit/RTU/RTU Data Unit.lvclass"/>
 			<Item Name="ASCII Data Unit.lvclass" Type="LVClass" URL="../Transmission Data Unit/ASCII/ASCII Data Unit.lvclass"/>
 		</Item>
-		<Item Name="Modbus Data Unit (PDU)" Type="Folder">
-			<Property Name="NI.SortType" Type="Int">3</Property>
-			<Item Name="Modbus Data Unit.lvclass" Type="LVClass" URL="../Modbus Data Unit/Modbus Data Unit.lvclass"/>
-		</Item>
 		<Item Name="Protocol" Type="Folder">
-			<Item Name="Interfaces" Type="Folder">
-				<Item Name="Network Protocol.lvclass" Type="LVClass" URL="../Network Protocol/Network Protocol.lvclass"/>
-				<Item Name="Network Master.lvclass" Type="LVClass" URL="../Network Protocol/Network Master/Network Master.lvclass"/>
-				<Item Name="Network Slave.lvclass" Type="LVClass" URL="../Network Protocol/Network Slave/Network Slave.lvclass"/>
-			</Item>
 			<Item Name="TCP" Type="Folder">
 				<Item Name="TCP_NODELAY.vi" Type="VI" URL="../Network Protocol/TCP_NODELAY.vi"/>
 				<Item Name="TCP Master.lvclass" Type="LVClass" URL="../Network Protocol/Network Master/TCP/TCP Master.lvclass"/>
 				<Item Name="TCP Slave.lvclass" Type="LVClass" URL="../Network Protocol/Network Slave/TCP/TCP Slave.lvclass"/>
-				<Item Name="TCP Shared Components.lvlib" Type="Library" URL="../Network Protocol/TCP Shared Components/TCP Shared Components.lvlib"/>
 			</Item>
 			<Item Name="Serial" Type="Folder">
 				<Item Name="Serial Master.lvclass" Type="LVClass" URL="../Network Protocol/Network Master/Serial/Serial Master.lvclass"/>
 				<Item Name="Serial Slave.lvclass" Type="LVClass" URL="../Network Protocol/Network Slave/Serial/Serial Slave.lvclass"/>
-				<Item Name="Serial Shared Components.lvlib" Type="Library" URL="../Network Protocol/Serial Shared Components/Serial Shared Components.lvlib"/>
 			</Item>
+			<Item Name="Modbus Master CR" Type="Folder">
+				<Item Name="M7000" Type="Folder">
+					<Item Name="Serial.lvclass" Type="LVClass" URL="../Network Protocol/M7000/Serial/Serial.lvclass"/>
+					<Item Name="ICPCON M-7024.lvclass" Type="LVClass" URL="../Network Protocol/M7000/ICPCON M-7024/ICPCON M-7024.lvclass"/>
+				</Item>
+				<Item Name="ET7000" Type="Folder">
+					<Item Name="TCP.lvclass" Type="LVClass" URL="../Network Protocol/ET7000/TCP/TCP.lvclass"/>
+					<Item Name="ICPCON ET-7016i.lvclass" Type="LVClass" URL="../Network Protocol/ET7000/ICPCON ET-7016i/ICPCON ET-7016i.lvclass"/>
+					<Item Name="ICPCON ET-7017-10.lvclass" Type="LVClass" URL="../Network Protocol/ET7000/ICPCON ET-7017-10/ICPCON ET-7017-10.lvclass"/>
+					<Item Name="ICPCON ET-7018.lvclass" Type="LVClass" URL="../Network Protocol/ET7000/ICPCON ET-7018/ICPCON ET-7018.lvclass"/>
+					<Item Name="ICPCON ET-7018i.lvclass" Type="LVClass" URL="../Network Protocol/ET7000/ICPCON ET-7018i/ICPCON ET-7018i.lvclass"/>
+					<Item Name="ICPCON ET-7024.lvclass" Type="LVClass" URL="../Network Protocol/ET7000/ICPCON ET-7024/ICPCON ET-7024.lvclass"/>
+					<Item Name="ICPCON ET-7028.lvclass" Type="LVClass" URL="../Network Protocol/ET7000/ICPCON ET-7028/ICPCON ET-7028.lvclass"/>
+					<Item Name="ICPCON ET-7042.lvclass" Type="LVClass" URL="../Network Protocol/ET7000/ICPCON ET-7042/ICPCON ET-7042.lvclass"/>
+					<Item Name="ICPCON ET-7051.lvclass" Type="LVClass" URL="../Network Protocol/ET7000/ICPCON ET-7051/ICPCON ET-7051.lvclass"/>
+					<Item Name="TEST.lvclass" Type="LVClass" URL="../Network Protocol/ET7000/TEST/TEST.lvclass"/>
+					<Item Name="stub.lvclass" Type="LVClass" URL="../Network Protocol/ET7000/stub/stub.lvclass"/>
+				</Item>
+				<Item Name="Modbus Master CR.lvclass" Type="LVClass" URL="../Network Protocol/MB/Modbus Master CR.lvclass"/>
+				<Item Name="MBParam.lvlib" Type="Library" URL="../Network Protocol/MB Param/MBParam.lvlib"/>
+			</Item>
+			<Item Name="Network Protocol.lvclass" Type="LVClass" URL="../Network Protocol/Network Protocol.lvclass"/>
+			<Item Name="Network Master.lvclass" Type="LVClass" URL="../Network Protocol/Network Master/Network Master.lvclass"/>
+			<Item Name="Network Slave.lvclass" Type="LVClass" URL="../Network Protocol/Network Slave/Network Slave.lvclass"/>
 		</Item>
 		<Item Name="Modbus API" Type="Folder">
+			<Item Name="API Main.lvlib" Type="Library" URL="../API/Wrapper/API Main.lvlib"/>
 			<Item Name="Modbus API.lvclass" Type="LVClass" URL="../API/Modbus API.lvclass"/>
 			<Item Name="Modbus Master.lvclass" Type="LVClass" URL="../API/Master/Modbus Master.lvclass"/>
+			<Item Name="Modbus Master CR API.lvclass" Type="LVClass" URL="../API/Modbus Master CR API/Modbus Master CR API.lvclass"/>
 			<Item Name="Modbus Slave.lvclass" Type="LVClass" URL="../API/Slave/Modbus Slave.lvclass"/>
-			<Item Name="API Main.lvlib" Type="Library" URL="../API/Wrapper/API Main.lvlib"/>
 		</Item>
 		<Item Name="Examples" Type="Folder">
 			<Item Name="Modbus Serial Slave Example.vi" Type="VI" URL="../Examples/Modbus Serial Slave Example.vi"/>
@@ -103,6 +123,7 @@
 				<Item Name="Error Cluster From Error Code.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Error Cluster From Error Code.vi"/>
 				<Item Name="VISA Flush IO Buffer Mask.ctl" Type="VI" URL="/&lt;vilib&gt;/Instr/_visa.llb/VISA Flush IO Buffer Mask.ctl"/>
 				<Item Name="TCP Get Raw Net Object.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/tcp.llb/TCP Get Raw Net Object.vi"/>
+				<Item Name="Get LV Class Name.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/LVClass/Get LV Class Name.vi"/>
 			</Item>
 			<Item Name="wsock32.dll" Type="Document" URL="wsock32.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
