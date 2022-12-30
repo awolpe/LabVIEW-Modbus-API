@@ -94,7 +94,11 @@
 					<Item Name="ICPCON ET-7042.lvclass" Type="LVClass" URL="../Network Protocol/ET7000/ICPCON ET-7042/ICPCON ET-7042.lvclass"/>
 					<Item Name="ICPCON ET-7051.lvclass" Type="LVClass" URL="../Network Protocol/ET7000/ICPCON ET-7051/ICPCON ET-7051.lvclass"/>
 					<Item Name="TEST.lvclass" Type="LVClass" URL="../Network Protocol/ET7000/TEST/TEST.lvclass"/>
+					<Item Name="TEST1.lvclass" Type="LVClass" URL="../Network Protocol/ET7000/TEST1/TEST1.lvclass"/>
 					<Item Name="stub.lvclass" Type="LVClass" URL="../Network Protocol/ET7000/stub/stub.lvclass"/>
+				</Item>
+				<Item Name="LIR919D" Type="Folder">
+					<Item Name="LIR-919D.lvclass" Type="LVClass" URL="../Network Protocol/MB/LIR-919D/LIR-919D.lvclass"/>
 				</Item>
 				<Item Name="Modbus Master CR.lvclass" Type="LVClass" URL="../Network Protocol/MB/Modbus Master CR.lvclass"/>
 				<Item Name="MBParam.lvlib" Type="Library" URL="../Network Protocol/MB Param/MBParam.lvlib"/>

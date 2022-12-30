@@ -4,25 +4,9 @@
 	<Property Name="NI.Lib.SourceVersion" Type="Int">553680896</Property>
 	<Property Name="NI.Lib.Version" Type="Str">1.0.0.0</Property>
 	<Property Name="NI.LV.All.SourceOnly" Type="Bool">false</Property>
-	<Item Name="AI.ctl" Type="VI" URL="../AI.ctl"/>
-	<Item Name="ALR.ctl" Type="VI" URL="../ALR.ctl"/>
-	<Item Name="AO.ctl" Type="VI" URL="../AO.ctl"/>
 	<Item Name="close_state.ctl" Type="VI" URL="../close_state.ctl"/>
-	<Item Name="DI.ctl" Type="VI" URL="../DI.ctl"/>
-	<Item Name="DI_FAST.ctl" Type="VI" URL="../DI_FAST.ctl"/>
-	<Item Name="DO.ctl" Type="VI" URL="../DO.ctl"/>
-	<Item Name="Experiments_state.ctl" Type="VI" URL="../Experiments_state.ctl"/>
 	<Item Name="init_state.ctl" Type="VI" URL="../init_state.ctl"/>
 	<Item Name="KFM.ctl" Type="VI" URL="../KFM.ctl"/>
 	<Item Name="main_prog_state.ctl" Type="VI" URL="../main_prog_state.ctl"/>
-	<Item Name="OPC_server_param.vi" Type="VI" URL="../OPC_server_param.vi"/>
-	<Item Name="PAR.ctl" Type="VI" URL="../PAR.ctl"/>
-	<Item Name="REG.ctl" Type="VI" URL="../REG.ctl"/>
-	<Item Name="scada_alr_prog_state.ctl" Type="VI" URL="../scada_alr_prog_state.ctl"/>
-	<Item Name="scada_close.ctl" Type="VI" URL="../scada_close.ctl"/>
-	<Item Name="scada_HXPanelState.ctl" Type="VI" URL="../scada_HXPanelState.ctl"/>
-	<Item Name="scada_init.ctl" Type="VI" URL="../scada_init.ctl"/>
-	<Item Name="scada_prog_state.ctl" Type="VI" URL="../scada_prog_state.ctl"/>
 	<Item Name="supervisor_state.ctl" Type="VI" URL="../supervisor_state.ctl"/>
-	<Item Name="System.ctl" Type="VI" URL="../System.ctl"/>
 </Library>
