@@ -22,24 +22,8 @@
 		<Property Name="server.vi.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
 		<Item Name="Data and Functions" Type="Folder">
-			<Item Name="ET7000" Type="Folder">
-				<Item Name="ET-7016 Data Model.lvclass" Type="LVClass" URL="../Data Model/ICPCON ET7000 Data Model/ET-7016/ET-7016 Data Model.lvclass"/>
-				<Item Name="ET-7016i Data Model.lvclass" Type="LVClass" URL="../Data Model/ICPCON ET7000 Data Model/ET-7016i/ET-7016i Data Model.lvclass"/>
-				<Item Name="ET-7017-10 Data Model.lvclass" Type="LVClass" URL="../Data Model/ICPCON ET7000 Data Model/ET-7017-10/ET-7017-10 Data Model.lvclass"/>
-				<Item Name="ET-7018 Data Model.lvclass" Type="LVClass" URL="../Data Model/ICPCON ET7000 Data Model/ET-7018/ET-7018 Data Model.lvclass"/>
-				<Item Name="ET-7018i Data Model.lvclass" Type="LVClass" URL="../Data Model/ICPCON ET7000 Data Model/ET-7018i/ET-7018i Data Model.lvclass"/>
-				<Item Name="ET-7024 Data Model.lvclass" Type="LVClass" URL="../Data Model/ICPCON ET7000 Data Model/ET-7024/ET-7024 Data Model.lvclass"/>
-				<Item Name="ET-7028 Data Model.lvclass" Type="LVClass" URL="../Data Model/ICPCON ET7000 Data Model/ET-7028/ET-7028 Data Model.lvclass"/>
-				<Item Name="ET-7042 Data Model.lvclass" Type="LVClass" URL="../Data Model/ICPCON ET7000 Data Model/ET-7042/ET-7042 Data Model.lvclass"/>
-				<Item Name="ET-7051 Data Model.lvclass" Type="LVClass" URL="../Data Model/ICPCON ET7000 Data Model/ET-7051/ET-7051 Data Model.lvclass"/>
-				<Item Name="TEST Data Model.lvclass" Type="LVClass" URL="../Data Model/ICPCON ET7000 Data Model/TEST/TEST Data Model.lvclass"/>
-			</Item>
-			<Item Name="M7000" Type="Folder">
-				<Item Name="M-7024 Data Model.lvclass" Type="LVClass" URL="../Data Model/ICPCON ET7000 Data Model/M-7024/M-7024 Data Model.lvclass"/>
-			</Item>
 			<Item Name="Device Data Model.lvclass" Type="LVClass" URL="../Data Model/Device Data Model.lvclass"/>
 			<Item Name="Standard Data Model.lvclass" Type="LVClass" URL="../Data Model/Standard Data Model/Standard Data Model.lvclass"/>
-			<Item Name="ICPCON ET Data Model.lvclass" Type="LVClass" URL="../Data Model/ICPCON ET7000 Data Model/ICPCON ET Data Model.lvclass"/>
 			<Item Name="Master Function Definition.lvclass" Type="LVClass" URL="../Master Function Definition/Master Function Definition.lvclass"/>
 		</Item>
 		<Item Name="Utility" Type="Folder">
@@ -78,31 +62,6 @@
 				<Item Name="Serial Master.lvclass" Type="LVClass" URL="../Network Protocol/Network Master/Serial/Serial Master.lvclass"/>
 				<Item Name="Serial Slave.lvclass" Type="LVClass" URL="../Network Protocol/Network Slave/Serial/Serial Slave.lvclass"/>
 			</Item>
-			<Item Name="Modbus Master CR" Type="Folder">
-				<Item Name="M7000" Type="Folder">
-					<Item Name="Serial.lvclass" Type="LVClass" URL="../Network Protocol/M7000/Serial/Serial.lvclass"/>
-					<Item Name="ICPCON M-7024.lvclass" Type="LVClass" URL="../Network Protocol/M7000/ICPCON M-7024/ICPCON M-7024.lvclass"/>
-				</Item>
-				<Item Name="ET7000" Type="Folder">
-					<Item Name="TCP.lvclass" Type="LVClass" URL="../Network Protocol/ET7000/TCP/TCP.lvclass"/>
-					<Item Name="ICPCON ET-7016i.lvclass" Type="LVClass" URL="../Network Protocol/ET7000/ICPCON ET-7016i/ICPCON ET-7016i.lvclass"/>
-					<Item Name="ICPCON ET-7017-10.lvclass" Type="LVClass" URL="../Network Protocol/ET7000/ICPCON ET-7017-10/ICPCON ET-7017-10.lvclass"/>
-					<Item Name="ICPCON ET-7018.lvclass" Type="LVClass" URL="../Network Protocol/ET7000/ICPCON ET-7018/ICPCON ET-7018.lvclass"/>
-					<Item Name="ICPCON ET-7018i.lvclass" Type="LVClass" URL="../Network Protocol/ET7000/ICPCON ET-7018i/ICPCON ET-7018i.lvclass"/>
-					<Item Name="ICPCON ET-7024.lvclass" Type="LVClass" URL="../Network Protocol/ET7000/ICPCON ET-7024/ICPCON ET-7024.lvclass"/>
-					<Item Name="ICPCON ET-7028.lvclass" Type="LVClass" URL="../Network Protocol/ET7000/ICPCON ET-7028/ICPCON ET-7028.lvclass"/>
-					<Item Name="ICPCON ET-7042.lvclass" Type="LVClass" URL="../Network Protocol/ET7000/ICPCON ET-7042/ICPCON ET-7042.lvclass"/>
-					<Item Name="ICPCON ET-7051.lvclass" Type="LVClass" URL="../Network Protocol/ET7000/ICPCON ET-7051/ICPCON ET-7051.lvclass"/>
-					<Item Name="TEST.lvclass" Type="LVClass" URL="../Network Protocol/ET7000/TEST/TEST.lvclass"/>
-					<Item Name="TEST1.lvclass" Type="LVClass" URL="../Network Protocol/ET7000/TEST1/TEST1.lvclass"/>
-					<Item Name="stub.lvclass" Type="LVClass" URL="../Network Protocol/ET7000/stub/stub.lvclass"/>
-				</Item>
-				<Item Name="LIR919D" Type="Folder">
-					<Item Name="LIR-919D.lvclass" Type="LVClass" URL="../Network Protocol/MB/LIR-919D/LIR-919D.lvclass"/>
-				</Item>
-				<Item Name="Modbus Master CR.lvclass" Type="LVClass" URL="../Network Protocol/MB/Modbus Master CR.lvclass"/>
-				<Item Name="MBParam.lvlib" Type="Library" URL="../Network Protocol/MB Param/MBParam.lvlib"/>
-			</Item>
 			<Item Name="Network Protocol.lvclass" Type="LVClass" URL="../Network Protocol/Network Protocol.lvclass"/>
 			<Item Name="Network Master.lvclass" Type="LVClass" URL="../Network Protocol/Network Master/Network Master.lvclass"/>
 			<Item Name="Network Slave.lvclass" Type="LVClass" URL="../Network Protocol/Network Slave/Network Slave.lvclass"/>
@@ -111,7 +70,6 @@
 			<Item Name="API Main.lvlib" Type="Library" URL="../API/Wrapper/API Main.lvlib"/>
 			<Item Name="Modbus API.lvclass" Type="LVClass" URL="../API/Modbus API.lvclass"/>
 			<Item Name="Modbus Master.lvclass" Type="LVClass" URL="../API/Master/Modbus Master.lvclass"/>
-			<Item Name="Modbus Master CR API.lvclass" Type="LVClass" URL="../API/Modbus Master CR API/Modbus Master CR API.lvclass"/>
 			<Item Name="Modbus Slave.lvclass" Type="LVClass" URL="../API/Slave/Modbus Slave.lvclass"/>
 		</Item>
 		<Item Name="Examples" Type="Folder">
@@ -127,7 +85,6 @@
 				<Item Name="Error Cluster From Error Code.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Error Cluster From Error Code.vi"/>
 				<Item Name="VISA Flush IO Buffer Mask.ctl" Type="VI" URL="/&lt;vilib&gt;/Instr/_visa.llb/VISA Flush IO Buffer Mask.ctl"/>
 				<Item Name="TCP Get Raw Net Object.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/tcp.llb/TCP Get Raw Net Object.vi"/>
-				<Item Name="Get LV Class Name.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/LVClass/Get LV Class Name.vi"/>
 			</Item>
 			<Item Name="wsock32.dll" Type="Document" URL="wsock32.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
