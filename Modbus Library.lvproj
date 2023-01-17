@@ -89,6 +89,8 @@
 			<Item Name="wsock32.dll" Type="Document" URL="wsock32.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
+			<Item Name="ELAN Data Model.lvclass" Type="LVClass" URL="../../Master CR/Data Model/ELAN Data Model/ELAN Data Model.lvclass"/>
+			<Item Name="ELAN PDU.lvclass" Type="LVClass" URL="../../Master CR/Data Unit/ELAN PC Data Unit/ELAN PDU.lvclass"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="My Source Distribution" Type="Source Distribution">
