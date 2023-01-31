@@ -78,6 +78,8 @@
 			<Item Name="Bytes to Bits.vi" Type="VI" URL="../../../Utility/Bytes to Bits.vi"/>
 			<Item Name="Bytes to U16s.vi" Type="VI" URL="../../../Utility/Bytes to U16s.vi"/>
 			<Item Name="Device Data Model.lvclass" Type="LVClass" URL="../../../Data Model/Device Data Model.lvclass"/>
+			<Item Name="ELAN Data Model.lvclass" Type="LVClass" URL="../../../../Master CR/Data Model/ELAN Data Model/ELAN Data Model.lvclass"/>
+			<Item Name="ELAN PDU.lvclass" Type="LVClass" URL="../../../../Master CR/Data Unit/ELAN PC Data Unit/ELAN PDU.lvclass"/>
 			<Item Name="Generate UUID.vi" Type="VI" URL="../../../Utility/Generate UUID.vi"/>
 			<Item Name="IP Data Unit.lvclass" Type="LVClass" URL="../../../Transmission Data Unit/IP/IP Data Unit.lvclass"/>
 			<Item Name="Master Function Definition.lvclass" Type="LVClass" URL="../../../Master Function Definition/Master Function Definition.lvclass"/>
@@ -227,6 +229,8 @@ DirectoryIndex index.htm
 			<Item Name="Bytes to Bits.vi" Type="VI" URL="../../../Utility/Bytes to Bits.vi"/>
 			<Item Name="Bytes to U16s.vi" Type="VI" URL="../../../Utility/Bytes to U16s.vi"/>
 			<Item Name="Device Data Model.lvclass" Type="LVClass" URL="../../../Data Model/Device Data Model.lvclass"/>
+			<Item Name="ELAN Data Model.lvclass" Type="LVClass" URL="../../../../Master CR/Data Model/ELAN Data Model/ELAN Data Model.lvclass"/>
+			<Item Name="ELAN PDU.lvclass" Type="LVClass" URL="../../../../Master CR/Data Unit/ELAN PC Data Unit/ELAN PDU.lvclass"/>
 			<Item Name="Generate UUID.vi" Type="VI" URL="../../../Utility/Generate UUID.vi"/>
 			<Item Name="IP Data Unit.lvclass" Type="LVClass" URL="../../../Transmission Data Unit/IP/IP Data Unit.lvclass"/>
 			<Item Name="Master Function Definition.lvclass" Type="LVClass" URL="../../../Master Function Definition/Master Function Definition.lvclass"/>
