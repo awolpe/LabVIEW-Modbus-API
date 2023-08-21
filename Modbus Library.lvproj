@@ -38,8 +38,8 @@
 			<Item Name="Network Interface.lvclass" Type="LVClass" URL="../Network Interface/Network Interface.lvclass"/>
 			<Item Name="TCP Interface.lvclass" Type="LVClass" URL="../Network Interface/TCP Interface/TCP Interface.lvclass"/>
 			<Item Name="Serial Interface.lvclass" Type="LVClass" URL="../Network Interface/Serial Interface/Serial Interface.lvclass"/>
-			<Item Name="Serial Shared Components.lvlib" Type="Library" URL="../Network Interface/Serial Interface/Serial Shared Components/Serial Shared Components.lvlib"/>
-			<Item Name="TCP Shared Components.lvlib" Type="Library" URL="../Network Interface/TCP Interface/TCP Shared Components/TCP Shared Components.lvlib"/>
+			<Item Name="TCP Shared Components.lvlib" Type="Library" URL="../Network Interface/TCP Interface/TSC/TCP Shared Components.lvlib"/>
+			<Item Name="Serial Shared Components.lvlib" Type="Library" URL="../Network Interface/Serial Interface/SSC/Serial Shared Components.lvlib"/>
 		</Item>
 		<Item Name="Modbus Data Unit (PDU)" Type="Folder">
 			<Property Name="NI.SortType" Type="Int">3</Property>
