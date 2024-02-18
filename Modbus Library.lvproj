@@ -1,5 +1,5 @@
 ﻿<?xml version='1.0' encoding='UTF-8'?>
-<Project Type="Project" LVVersion="13008000">
+<Project Type="Project" LVVersion="21008000">
 	<Property Name="NI.LV.All.SourceOnly" Type="Bool">true</Property>
 	<Property Name="NI.Project.Description" Type="Str"></Property>
 	<Item Name="My Computer" Type="My Computer">
@@ -34,6 +34,17 @@
 			<Item Name="Bytes to U16s.vi" Type="VI" URL="../Utility/Bytes to U16s.vi"/>
 			<Item Name="Generate UUID.vi" Type="VI" URL="../Utility/Generate UUID.vi"/>
 		</Item>
+		<Item Name="Network Interface" Type="Folder">
+			<Item Name="Network Interface.lvclass" Type="LVClass" URL="../Network Interface/Network Interface.lvclass"/>
+			<Item Name="TCP Interface.lvclass" Type="LVClass" URL="../Network Interface/TCP Interface/TCP Interface.lvclass"/>
+			<Item Name="Serial Interface.lvclass" Type="LVClass" URL="../Network Interface/Serial Interface/Serial Interface.lvclass"/>
+			<Item Name="TCP Shared Components.lvlib" Type="Library" URL="../Network Interface/TCP Interface/TSC/TCP Shared Components.lvlib"/>
+			<Item Name="Serial Shared Components.lvlib" Type="Library" URL="../Network Interface/Serial Interface/SSC/Serial Shared Components.lvlib"/>
+		</Item>
+		<Item Name="Modbus Data Unit (PDU)" Type="Folder">
+			<Property Name="NI.SortType" Type="Int">3</Property>
+			<Item Name="Modbus Data Unit.lvclass" Type="LVClass" URL="../Modbus Data Unit/Modbus Data Unit.lvclass"/>
+		</Item>
 		<Item Name="Transmission Data Unit (ADU)" Type="Folder">
 			<Item Name="Transmission Data Unit.lvclass" Type="LVClass" URL="../Transmission Data Unit/Transmission Data Unit.lvclass"/>
 			<Item Name="IP Data Unit.lvclass" Type="LVClass" URL="../Transmission Data Unit/IP/IP Data Unit.lvclass"/>
@@ -41,33 +52,25 @@
 			<Item Name="RTU Data Unit.lvclass" Type="LVClass" URL="../Transmission Data Unit/RTU/RTU Data Unit.lvclass"/>
 			<Item Name="ASCII Data Unit.lvclass" Type="LVClass" URL="../Transmission Data Unit/ASCII/ASCII Data Unit.lvclass"/>
 		</Item>
-		<Item Name="Modbus Data Unit (PDU)" Type="Folder">
-			<Property Name="NI.SortType" Type="Int">3</Property>
-			<Item Name="Modbus Data Unit.lvclass" Type="LVClass" URL="../Modbus Data Unit/Modbus Data Unit.lvclass"/>
-		</Item>
 		<Item Name="Protocol" Type="Folder">
-			<Item Name="Interfaces" Type="Folder">
-				<Item Name="Network Protocol.lvclass" Type="LVClass" URL="../Network Protocol/Network Protocol.lvclass"/>
-				<Item Name="Network Master.lvclass" Type="LVClass" URL="../Network Protocol/Network Master/Network Master.lvclass"/>
-				<Item Name="Network Slave.lvclass" Type="LVClass" URL="../Network Protocol/Network Slave/Network Slave.lvclass"/>
-			</Item>
 			<Item Name="TCP" Type="Folder">
 				<Item Name="TCP_NODELAY.vi" Type="VI" URL="../Network Protocol/TCP_NODELAY.vi"/>
 				<Item Name="TCP Master.lvclass" Type="LVClass" URL="../Network Protocol/Network Master/TCP/TCP Master.lvclass"/>
 				<Item Name="TCP Slave.lvclass" Type="LVClass" URL="../Network Protocol/Network Slave/TCP/TCP Slave.lvclass"/>
-				<Item Name="TCP Shared Components.lvlib" Type="Library" URL="../Network Protocol/TCP Shared Components/TCP Shared Components.lvlib"/>
 			</Item>
 			<Item Name="Serial" Type="Folder">
 				<Item Name="Serial Master.lvclass" Type="LVClass" URL="../Network Protocol/Network Master/Serial/Serial Master.lvclass"/>
 				<Item Name="Serial Slave.lvclass" Type="LVClass" URL="../Network Protocol/Network Slave/Serial/Serial Slave.lvclass"/>
-				<Item Name="Serial Shared Components.lvlib" Type="Library" URL="../Network Protocol/Serial Shared Components/Serial Shared Components.lvlib"/>
 			</Item>
+			<Item Name="Network Protocol.lvclass" Type="LVClass" URL="../Network Protocol/Network Protocol.lvclass"/>
+			<Item Name="Network Master.lvclass" Type="LVClass" URL="../Network Protocol/Network Master/Network Master.lvclass"/>
+			<Item Name="Network Slave.lvclass" Type="LVClass" URL="../Network Protocol/Network Slave/Network Slave.lvclass"/>
 		</Item>
 		<Item Name="Modbus API" Type="Folder">
+			<Item Name="API Main.lvlib" Type="Library" URL="../API/Wrapper/API Main.lvlib"/>
 			<Item Name="Modbus API.lvclass" Type="LVClass" URL="../API/Modbus API.lvclass"/>
 			<Item Name="Modbus Master.lvclass" Type="LVClass" URL="../API/Master/Modbus Master.lvclass"/>
 			<Item Name="Modbus Slave.lvclass" Type="LVClass" URL="../API/Slave/Modbus Slave.lvclass"/>
-			<Item Name="API Main.lvlib" Type="Library" URL="../API/Wrapper/API Main.lvlib"/>
 		</Item>
 		<Item Name="Examples" Type="Folder">
 			<Item Name="Modbus Serial Slave Example.vi" Type="VI" URL="../Examples/Modbus Serial Slave Example.vi"/>
@@ -82,12 +85,12 @@
 				<Item Name="Error Cluster From Error Code.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Error Cluster From Error Code.vi"/>
 				<Item Name="VISA Flush IO Buffer Mask.ctl" Type="VI" URL="/&lt;vilib&gt;/Instr/_visa.llb/VISA Flush IO Buffer Mask.ctl"/>
 				<Item Name="TCP Get Raw Net Object.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/tcp.llb/TCP Get Raw Net Object.vi"/>
-				<Item Name="3D Plot.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/Math Plots/3D Math Plots/3D Plot/3D Plot/3D Plot.lvclass"/>
-				<Item Name="3D Comet.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/Math Plots/3D Math Plots/3D Comet/3D Comet/3D Comet.lvclass"/>
 			</Item>
 			<Item Name="wsock32.dll" Type="Document" URL="wsock32.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
+			<Item Name="ELAN Data Model.lvclass" Type="LVClass" URL="../../Master CR/Data Model/ELAN Data Model/ELAN Data Model.lvclass"/>
+			<Item Name="ELAN PDU.lvclass" Type="LVClass" URL="../../Master CR/Data Unit/ELAN PC Data Unit/ELAN PDU.lvclass"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="My Source Distribution" Type="Source Distribution">
